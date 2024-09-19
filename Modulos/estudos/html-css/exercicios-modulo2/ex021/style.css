@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+h1{
+    background-color: lightsalmon;
+    height: 300px;
+    width: 300px;
+
+    border-width: 20px;
+    border-style: double;
+    border-color: darkred;
+    /* border: 20px solid darkred - shorthands */
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    /* padding: 10px 10px 10px 10px - shorthands - se todas forem iguais, só precisamos informar uma */
+    /* padding: 10px */
+    /* padding: 10px 10px - com dois valores o primeiro é referente a cima/baixo e o segundo a esquerda/direita */
+
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    /* margin: 10px 10px 30px 10px - shorthands */
+
+    outline-width: 5px;
+    outline-style: dotted;
+    outline-color: red;
+    /* outline: 5px dotted red */
+}
+
+a {
+    border-width: 5px;
+    border-style: dotted;
+    border-color: darkred;
+}
